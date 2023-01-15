@@ -1,0 +1,59 @@
+body {
+    font-family: 'Crimson Pro';
+}
+
+.hyperlink1 {
+    text-decoration: none;
+}
+
+.hyperlink2 {
+    text-decoration:line-through;
+    color: aquamarine;
+}
+
+.hyperlink3 {
+    text-decoration: none;
+}
+
+.hyperlink3:hover {
+    color: brown;
+    text-decoration: none;
+}
+
+.hyperlink4 {
+    text-decoration: none;
+    color: chartreuse;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.hyperlink5 {
+    text-decoration: none;
+    color: chartreuse;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 6px;
+    background-color: black;
+}
+
+.hyperlink6 {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 6px;
+    background-color: yellow;
+}
+
+.hyperlink6:hover {
+    text-decoration: none;
+    color:  inherit;
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 6px;
+    background-color: blue;
+}
